@@ -1,0 +1,42 @@
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rows {
+    display: flex;
+    flex-direction: row;
+}
+
+.key {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    padding-top: 5px;
+    border: 1px solid black;
+    font-size: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#delete-key {
+    height: 50px;
+    width: 200px;
+    margin: 5px;
+    padding-top: 5px;
+    border: 1px solid black;
+    font-size: 50px;
+    text-align: center;
+}
+
+#enter-key {
+    height: 50px;
+    width: 180px;
+    margin: 5px;
+    padding-top: 5px;
+    border: 1px solid black;
+    font-size: 50px;
+    text-align: center;
+}
